@@ -1,0 +1,10 @@
+version: 1
+project:
+  source: internal
+workflow:
+  github_repo: twitter-staging/codesing-integration-test
+  github_branch: end-to-end
+  transformations:
+    scrub:
+      - JIRA
+      - DIFF
